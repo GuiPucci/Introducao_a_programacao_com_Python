@@ -13,8 +13,9 @@ class Calculadora:
         return valor_a / valor_b
 
 
-calculadora = Calculadora()
-print("Soma:", calculadora.soma(10, 2))
-print("Subtração:", calculadora.subtracao(5, 3))
-print("Divisão:", calculadora.divisao(100, 2))
-print("Multiplicação:", calculadora.multiplicacao(10, 5))
+if __name__ == "__main__":
+    calculadora = Calculadora()
+    print("Soma:", calculadora.soma(10, 2))
+    print("Subtração:", calculadora.subtracao(5, 3))
+    print("Divisão:", calculadora.divisao(100, 2))
+    print("Multiplicação:", calculadora.multiplicacao(10, 5))
